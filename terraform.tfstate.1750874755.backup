@@ -1,0 +1,30 @@
+{
+  "version": 4,
+  "terraform_version": "1.12.1",
+  "serial": 421,
+  "lineage": "a6661188-b63c-82c6-f50c-f707e9a12886",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "data",
+      "type": "aws_region",
+      "name": "current",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "description": "Israel (Tel Aviv)",
+            "endpoint": "ec2.il-central-1.amazonaws.com",
+            "id": "il-central-1",
+            "name": "il-central-1",
+            "region": "il-central-1"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
